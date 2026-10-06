@@ -212,7 +212,22 @@ textarea {
     color: #627085;
     text-align: center;
 }
+.filters {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+}
 
+.filter-button {
+  color: #3157d5;
+  background: #e8edff;
+  text-transform: capitalize;
+}
+
+.filter-button.active {
+  color: white;
+  background: #3157d5;
+}
 /* Stack dashboard regions when horizontal space becomes limited. */
 @media (max-width: 780px) {
     .dashboard-grid {
